@@ -15,7 +15,7 @@ const VoiceChat = () => {
   const [failed , setFailed] = useState(false);
 
   const finalTranscriptRef = useRef('');
-  const url = 'http://localhost:5000/chat';
+  const url = 'https://saasserversidescript-production.up.railway.app/chat';
 
   const synth = window.speechSynthesis;
 
